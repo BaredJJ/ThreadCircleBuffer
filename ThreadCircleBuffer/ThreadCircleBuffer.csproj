@@ -45,6 +45,9 @@
     <Compile Include="CircleBuffer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MyThread.cs" />
+    <Compile Include="ReadBuffer.cs" />
+    <Compile Include="WriteBuffer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
