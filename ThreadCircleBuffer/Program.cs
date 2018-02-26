@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ThreadCircleBuffer
@@ -40,9 +41,18 @@ namespace ThreadCircleBuffer
             MyThread[] readers = new ReadBuffer[reader];
 
             Random random = new Random();
-            int length = random.Next(sizeBuffer, sizeBuffer * 4);
+            WriteBuffer.Count = random.Next(sizeBuffer, sizeBuffer * 4);
 
-
+            for (int i = 0; i < writer; i++)
+            {
+                writers[i] = new WriteBuffer(new object( ));
+                if(i == writer - 1)
+                    for(int j = 0; j < reader; j++)
+                    {
+                        readers[j] = new ReadBuffer(new object( ));
+                    }
+            }
+          
         }
     }
 }

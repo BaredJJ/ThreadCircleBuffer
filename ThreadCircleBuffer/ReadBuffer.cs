@@ -8,11 +8,16 @@ namespace ThreadCircleBuffer
 {
     class ReadBuffer:MyThread
     {
+        private bool _complete;
+
         public override void Run()
         {
             lock(_locker)
             {
-
+                if (Program.circleBuffer.IsEmpty)
+                    _complete = true;
+                else
+                    Program.circleBuffer.Dequeue( );               
             }
         }
     }
