@@ -1,7 +1,6 @@
 D:\coding\Thread\ThreadCircleBuffer\ThreadCircleBuffer\bin\Debug\ThreadCircleBuffer.exe.config
 D:\coding\Thread\ThreadCircleBuffer\ThreadCircleBuffer\bin\Debug\ThreadCircleBuffer.exe
 D:\coding\Thread\ThreadCircleBuffer\ThreadCircleBuffer\bin\Debug\ThreadCircleBuffer.pdb
-D:\coding\Thread\ThreadCircleBuffer\ThreadCircleBuffer\obj\Debug\ThreadCircleBuffer.csprojResolveAssemblyReference.cache
 D:\coding\Thread\ThreadCircleBuffer\ThreadCircleBuffer\obj\Debug\ThreadCircleBuffer.csproj.CoreCompileInputs.cache
 D:\coding\Thread\ThreadCircleBuffer\ThreadCircleBuffer\obj\Debug\ThreadCircleBuffer.exe
 D:\coding\Thread\ThreadCircleBuffer\ThreadCircleBuffer\obj\Debug\ThreadCircleBuffer.pdb

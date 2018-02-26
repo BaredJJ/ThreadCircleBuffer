@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ThreadCircleBuffer
 {
@@ -23,6 +19,10 @@ namespace ThreadCircleBuffer
             _buffer = new T[bufferSize];
             _head = bufferSize - 1;
         }
+
+        public int Length => _length;//Need for test
+
+        public int Tail => _tail;//Need for test
 
         /// <summary>
         /// Buffer is empty
